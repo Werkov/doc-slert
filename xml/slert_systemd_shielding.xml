@@ -70,7 +70,10 @@ AllowedCPUs=0-1
 AllowedCPUs=2-15
 </screen>
 <para>
+        and apply the new config files to systemd:
 </para>
+<screen>&prompt.root;systemctl daemon-reload
+</screen>
 <para>
         The setup can also be changed dynamically until next reboot (for debugging reasons):
 </para>
